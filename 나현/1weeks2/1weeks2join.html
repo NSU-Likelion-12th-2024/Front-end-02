@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple ID 생성</title>
+    <script
+        src="https://kit.fontawesome.com/384e65c0ab.js"
+        crossorigin="anonymous"
+      ></script>
+</head>
+<body>
+    <div style="text-align: center">
+        <header>
+          <div>
+            <button type="button">
+              <i class="fa-brands fa-apple"></i>
+            </button>
+          </div>
+          <input type="button" value="스토어" />
+          <div>
+            <input type="button" value="Mac" />
+          </div>
+          <input type="button" value="iPad" />
+          <div>
+            <input type="button" value="iPhone" />
+          </div>
+          <input type="button" value="Watch" />
+          <div>
+            <input type="button" value="AirPods" />
+          </div>
+          <input type="button" value="악세서리" />
+          <div>
+            <input type="button" value="고객지원" />
+          </div>
+          <button type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </header>
+        <section>
+          <form action="">
+            <h1>Apple ID</h1>
+            <p>로그인</p>
+            <p>Apple ID 생성</p>
+            <p>FQA</p>
+            <h2>Apple ID 생성</h2>
+            <p>하나의 Apple ID로 모든 Apple 서비스를 이용할 수 있습니다.</p>
+            <input type="text" name="name" id="성" placeholder="성" required>
+            <div><input type="text" name="name" id="이름" placeholder="이름" required></div>
+            <div>
+              <select name="number" id="">
+                <option value="국가코드">미국 +1</option>
+                <option value="국가코드">러시아 +7</option>
+                <option value="국가코드">프랑스 +33</option>
+                <option value="국가코드">이탈리아 +39</option>
+                <option value="국가코드">영국 +44</option>
+                <option value="국가코드">오스트레일리아 +61</option>
+                <option value="국가코드">뉴질랜드 +64</option>
+                <option value="국가코드">일본 +81</option>
+                <option value="국가코드" selected>대한민국 +82</option>
+                <option value="국가코드">베트남+84</option>
+                <option value="국가코드">중국 +86</option>
+              </select>
+            </div>
+            <input type="tel" name="number" id="전화번호" placeholder="전화번호" required>
+            <div>
+              <input type="date" name="date" id="날짜" required>
+            </div>
+            <input type="email" name="email" id="email" placeholder="name@example.com" required>
+
+            <div>
+              <input type="password" placeholder="암호"
+                pattern="(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#^?&])[A-Za-z\d@$!%*#^?&]{8,16}" required>
+            </div>
+            <label for="text">번호 확인 방법</label>
+            <input type="radio" name="method" id="문자메세지" required>문자메세지
+            <input type="radio" name="method" id="음성메세지" required>음성메세지
+            <div>
+              <input type="checkbox" name="check" id="광고수신동의" required>광고수신동의
+            </div>
+            <input type="checkbox" name="check" id="개인정보수집동의" required>개인정보수집동의
+            <div>
+              <button type="submit">가입하기</button>
+            </div>
+          </form>
+        </section>
+<p></p>
+        <footer>
+          <a href="/Front-end-02/나현/1weeks2/1weeks2main.html" style="font-size: small;">이전 페이지</a>
+        </footer>
+</body>
+</html>

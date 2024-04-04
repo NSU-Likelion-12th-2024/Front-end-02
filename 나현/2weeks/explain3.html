@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* * {
+      padding: 0;
+    }
+    ul {
+      border: 5px solid black;
+    }
+    ul.display_flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      align-items: flex-start;
+      align-items: flex-end;
+      align-items: center;
+    }
+    ul.display_flex li {
+      list-style: none;
+      border: 2px solid red;
+      box-sizing: border-box;
+      width: 30%;
+      background: pink;
+      text-align: center;
+      padding: 10px 0;
+    } */
+
+    * {
+      padding: 0;
+    }
+    ul.display_flex {
+      width: 40%;
+      display: flex;
+      height: 50px;
+      line-height: 50px;
+    }
+    ul.display_flex li {
+      list-style: none;
+      border: 1px solid black;
+      text-align: center;
+      background-color: antiquewhite;
+      flex: 1;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+      display: block;
+    }
+    .display_flex li a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+    .display_flex li ul {
+      display: none;
+      width: 100%;
+    }
+    .display_flex li:hover ul {
+      display: block;
+    }
+    .display_flex li ul li {
+      width: 100%;
+    }
+    ul.display_flex li:nth-child(2) a:hover {
+      opacity: 0.2;
+    }
+  </style>
+  <body>
+    <ul class="display_flex">
+      <li>
+        <a href="#">menu1</a>
+        <ul class="submenu1">
+          <li>submenu</li>
+          <li>submenu</li>
+          <li>submenu</li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">menu2</a>
+        <ul class="submenu2">
+          <li>submenu</li>
+          <li>submenu</li>
+          <li>submenu</li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">menu3</a>
+        <ul class="submenu3">
+          <li>submenu</li>
+          <li>submenu</li>
+          <li>submenu</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>

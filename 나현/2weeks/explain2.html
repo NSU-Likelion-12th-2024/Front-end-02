@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* #box {
+        width: 400px;
+        margin: 0 auto;
+        border: 5px solid black;
+        overflow: hidden;
+        text-align: center;
+      }
+      #left .first {
+        width: 100px;
+        border: 1px solid red;
+        float: left;
+        box-sizing: border-box;
+      }
+      #left .second {
+        width: 100px;
+        border: 1px solid red;
+        float: left;
+        box-sizing: border-box;
+      }
+      #right .first {
+        width: 100px;
+        border: 1px solid red;
+        clear: both;
+        float: right;
+        box-sizing: border-box;
+      }
+      #right .second {
+        width: 100px;
+        border: 1px solid red;
+        float: right;
+        box-sizing: border-box;
+      } */
+      * {
+        padding: 0;
+      }
+      ul {
+        border: 5px solid black;
+      }
+      ul.display_flex {
+        display: flex;
+        justify-content: flex-start; /*왼쪽부터 시작*/
+        justify-content: flex-end; /*오른쪽부터 시작*/
+        justify-content: center; /*중간에*/
+        justify-content: space-around; /*요소가 다 떨어져 있음*/
+        justify-content: space-between; /*처음 끝 간격 없음*/
+        justify-content: space-evenly; /*처음부터 끝까지 간격 동일*/
+      }
+      ul.display_flex li {
+        list-style: none;
+        border: 2px solid red;
+        box-sizing: border-box;
+        width: 30%;
+        background: pink;
+        text-align: center;
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div id="box">
+      <div id="left">
+        <div class="first">first</div>
+        <div class="second">second</div>
+      </div>
+      <div id="right">
+        <div class="first">first</div>
+        <div class="second">second</div>
+      </div>
+    </div> -->
+
+    <ul class="display_flex">
+      <li>flex1</li>
+      <li>flex2</li>
+      <li>flex3</li>
+    </ul>
+  </body>
+</html>

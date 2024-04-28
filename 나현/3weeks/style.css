@@ -1,0 +1,219 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+header {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  padding-inline-start: 25%;
+  padding-inline-end: 25%;
+}
+
+header p {
+  display: flex;
+  background-color: black;
+  padding: 1%;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+
+header p:hover {
+  transform: scale(1.5);
+  transition-duration: unset;
+}
+
+/*  */
+
+.middle {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fbfbfd;
+  padding-inline-start: 40%;
+  padding-inline-end: 40%;
+}
+
+.first a {
+  text-decoration: none;
+  color: inherit;
+  font-size: x-small;
+}
+.first a:hover {
+  color: #0077ed;
+  flex-direction: column;
+}
+
+.second a {
+  text-decoration: none;
+  color: inherit;
+  font-size: x-small;
+}
+.second a:hover {
+  color: #0077ed;
+  flex-direction: column;
+}
+
+.third a {
+  text-decoration: none;
+  color: inherit;
+  font-size: x-small;
+}
+.third a:hover {
+  color: #0077ed;
+  flex-direction: column;
+}
+
+.fourth a {
+  text-decoration: none;
+  color: inherit;
+  font-size: x-small;
+}
+.fourth a:hover {
+  color: #0077ed;
+  flex-direction: column;
+}
+
+.end h1 {
+  line-height: 50%;
+}
+
+.more {
+  justify-content: center;
+}
+
+.more button {
+  display: inline-block;
+  background-color: #0077ed;
+  border-radius: 20px;
+  padding: 7px;
+  font-size: small;
+  color: white;
+  cursor: pointer;
+}
+
+.more #most {
+  text-decoration: none;
+  color: #0077ed;
+  font-weight: bold;
+}
+
+.more #most:hover {
+  text-decoration: underline;
+}
+
+.more a {
+  color: #0077ed;
+  font-weight: bold;
+}
+.more :nth-child(2) {
+  margin-left: 20px;
+}
+
+/*  */
+
+/*  */
+
+#성:focus {
+  outline-color: #0077ed;
+}
+#이름:focus {
+  outline-color: #0077ed;
+}
+#code:focus {
+  outline-color: #0077ed;
+}
+#전화번호:focus {
+  outline-color: #0077ed;
+}
+#날짜:focus {
+  outline-color: #0077ed;
+}
+#email:focus {
+  outline-color: #0077ed;
+}
+#password:focus {
+  outline-color: #0077ed;
+}
+
+.high {
+  display: flex;
+  padding-inline-start: 26%;
+  padding-inline-end: 26%;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: #a8a8ab;
+  justify-content: space-between;
+}
+
+.high h2 {
+  border-right: 10%;
+}
+
+.high div {
+  margin-top: 30px;
+}
+
+.high a {
+  text-decoration: none;
+  color: #a8a8ab;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+}
+
+.name input {
+  width: 190px;
+  height: 54px;
+  margin-bottom: 1%;
+}
+
+.name input:nth-child(2) {
+  margin-left: 20px;
+}
+
+.else select {
+  width: 414px;
+  height: 54px;
+  margin: 1%;
+}
+
+.else input {
+  width: 414px;
+  height: 54px;
+  margin: 1%;
+}
+
+.other input {
+  margin: 5%;
+}
+
+button {
+  background-color: #0077ed;
+  display: inline-block;
+  border-radius: 20px;
+  border-style: none;
+  padding: 7px;
+  font-size: large;
+  color: white;
+}
+
+.join:active {
+  transform: scale(1.1);
+}
+
+/*  */
+footer {
+  box-sizing: border-box;
+  padding: 2%;
+  background-color: black;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}

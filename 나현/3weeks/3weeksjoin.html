@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"/>
+        <link rel="stylesheet" href="/Front-end-02/나현/3weeks/style.css">
+    <title>Apple ID 생성</title>
+    <script
+        src="https://kit.fontawesome.com/384e65c0ab.js"
+        crossorigin="anonymous"
+      ></script>
+</head>
+<body>
+ 
+        <header>
+          <p>
+            <i class="fa-brands fa-apple"></i>
+          </p>
+          <p>스토어</p>
+          <p>Mac</p>
+          <p>iPad</p>
+          <p>iPhone</p>
+          <p>Watch</p>
+          <p>Airpods</p>
+          <p>악세서리</p>
+          <p>고객지원</p>
+          <p>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </p>
+        </header>
+        <section>
+          <form action="">
+          <div class="high">
+            <h1>Apple ID</h1>
+            <div class="next">
+              <a href="#" style="padding-right: 10px; font-size: x-small;">로그인</a>
+              <a href="#" style="padding-right: 10px; font-size: x-small;">Apple ID 생성</a>
+              <a href="#" style="padding-right: 10px; font-size: x-small;">FAQ</a>
+            </div>
+          </div>
+            <h2>Apple ID 생성</h2>
+            <p style="font-size: small;">하나의 Apple ID로 모든 Apple 서비스를 이용할 수 있습니다.</p>
+            <div class="name">
+            <input type="text" name="name" id="성" placeholder="성" required>
+            <input type="text" name="name" id="이름" placeholder="이름" required></div>
+            
+            <div class="else">
+            <div>
+              <select name="number" id="code">
+                <option value="국가코드">미국 +1</option>
+                <option value="국가코드">러시아 +7</option>
+                <option value="국가코드">프랑스 +33</option>
+                <option value="국가코드">이탈리아 +39</option>
+                <option value="국가코드">영국 +44</option>
+                <option value="국가코드">오스트레일리아 +61</option>
+                <option value="국가코드">뉴질랜드 +64</option>
+                <option value="국가코드">일본 +81</option>
+                <option value="국가코드" selected>대한민국 +82</option>
+                <option value="국가코드">베트남+84</option>
+                <option value="국가코드">중국 +86</option>
+              </select>
+            </div>
+            <input type="tel" name="number" id="전화번호" placeholder="전화번호" required>
+            <div>
+              <input type="date" name="date" id="날짜" required>
+            </div>
+            <input type="email" name="email" id="email" placeholder="name@example.com" required>
+            <div>
+              <input type="password" placeholder="암호" id="password"
+                pattern="(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#^?&])[A-Za-z\d@$!%*#^?&]{8,16}" required>
+            </div>
+          </div>
+        </div>
+            <label for="text">번호 확인 방법</label>
+            <input type="radio" name="method" id="문자메세지" required>문자메세지
+            <input type="radio" name="method" id="음성메세지" required>음성메세지   
+            <p></p>
+            <div>
+              <input type="checkbox" name="check" id="광고수신동의" required>광고수신동의
+            </div>
+            <p></p>
+            <input type="checkbox" name="check" id="개인정보수집동의" required>개인정보수집동의
+            <div></div>
+            <p></p>
+            <button class="join">
+              가입하기
+            </button>
+        </form>
+        </section>
+<p></p>
+
+        <footer>
+          <a href="/Front-end-02/나현/3weeks/3weeksmain.html">이전 페이지</a>
+        </footer>
+</body>
+</html>

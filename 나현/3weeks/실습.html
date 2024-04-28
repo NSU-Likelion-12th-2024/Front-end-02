@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .left {
+        margin: 30px;
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+      }
+      .left2 {
+        display: inline-block;
+        margin-top: 30px;
+        border-top-right-radius: 50px;
+        border: 20px solid blue;
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+      }
+      .right {
+        margin-left: 30px;
+        margin-top: -10px;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        box-sizing: border-box;
+        border: 3px solid brown;
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+      }
+      .right2 {
+        display: inline-block;
+        margin-left: 30px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        border-top : 10px solid blue;
+        border-left: 20px solid blue;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        background-color: yellow;
+        border-bottom-right-radius: 10px;
+        height: 100px;
+        width: 100px;
+      }
+      .circle {
+        display: inline-block;
+        border-radius: 50%;
+        margin: 30px;
+        background-color: rgb(255, 0, 0);
+        height: 40px;
+        width: 40px;
+      }
+      .box {
+        display: flex;
+      }
+      .box2 {
+        display: flex;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="left">
+        <div class="circle"></div>
+      </div>
+      <span class="left2">Hi?</span>
+    </div>
+    <div class="box2">
+      <div class="right"> 이름?<br> 학교?<br>  학번?</br>
+    </div>
+      <span class="right2" >안녕?</span>
+    </div>
+  </body>
+</html>

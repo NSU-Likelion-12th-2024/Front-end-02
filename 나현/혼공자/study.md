@@ -51,3 +51,33 @@ p.125
 2.string()
 Boolean() 3.
 }
+
+p.126
+
+    3번:
+
+```js
+<script>
+  const a = prompt("cm단위의 숫자를 입력해주세요."); const cm = Number(a); const
+  inch = cm * 0.393701; alert(cm + "cm는 " + inch + "inch 입니다.");
+</script>
+```
+
+    4번:
+
+```js
+<script>
+  const a = prompt("원의 반지름을 입력해 주세요"); const r = Number(a);
+  alert("원의 반지름 :" + r); alert("원의 넓이 : " + r * r * 3.14); alert("원의
+  둘레 : " + r * 2 * 3.14);
+</script>
+```
+
+    5번 :
+
+```js
+<script>
+  const a = prompt("달러 단위의 금액을 입력해주세요."); const enter = Number(a);
+  const origin = enter * 1207; alert("달러 : " + enter + "-> 원화 : " + origin);
+</script>
+```

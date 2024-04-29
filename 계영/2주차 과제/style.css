@@ -1,0 +1,108 @@
+* {
+  text-align: center;
+}
+
+.menubox {
+  background-color: black;
+  color: white;
+  padding: 35px 100px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.menubox :hover {
+  font-size: 1.5em;
+}
+
+.list {
+  padding: 10px;
+  background-color: #f3f3f6;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: #a8a8ab;
+}
+.buymenu {
+  display: flex;
+  justify-content: center;
+}
+.buy {
+  background-color: #0077ed;
+  border: 2px solid #0077ed;
+  border-radius: 50px;
+  color: white;
+  padding: 2px 5px;
+}
+.listABC a {
+  text-decoration: none;
+  color: black;
+}
+.listABC :hover {
+  color: #0077ed;
+}
+.link {
+  color: #0077ed;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.link :hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: black;
+  font-size: 28px;
+  padding: 15px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.join {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #a8a8ab;
+  border-width: 0px 0px 1px 0px;
+}
+.AppleID {
+  font-size: 27px;
+  font-weight: bold;
+  margin: 13px;
+  padding: 0px 40% 0px 0px;
+}
+.login {
+  display: flex;
+  padding-top: 35px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #a8a8ab;
+  margin: 13px;
+}
+
+.information.Name {
+  display: flex;
+  width: 190px;
+  height: 54px;
+}
+.information input {
+  width: 414px;
+  height: 54px;
+}
+.final {
+  background-color: #0077ed;
+  border: 3px solid #0077ed;
+  border-radius: 50px;
+  margin: 10px 47%;
+  color: white;
+  padding: 5px;
+}
+.final :hover {
+  font-size: large;
+}

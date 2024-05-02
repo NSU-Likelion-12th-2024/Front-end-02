@@ -23,7 +23,7 @@ header p {
 }
 
 header p:hover {
-  transform: scale(1.5);
+  font-size: 15px;
   transition-duration: unset;
 }
 

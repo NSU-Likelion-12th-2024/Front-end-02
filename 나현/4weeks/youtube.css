@@ -1,7 +1,352 @@
 * {
-  background-color: black;
+  background-color: rgb(36, 36, 36);
+  padding-inline-start: 0.1%;
+  padding-inline-end: 0.1%;
 }
 .basic {
-  padding-inline-start: 10%;
-  padding-inline-end: 10%;
+  margin-top: 10px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
 }
+#bar {
+  margin-right: 15px;
+  margin-left: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+.search {
+  background-color: black;
+  width: 600px;
+  height: 40px;
+  font-size: medium;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.search p {
+  background-color: black;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+#key {
+  background-color: black;
+  width: 30px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+#glasses {
+  background-color: rgb(101, 101, 101);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 55px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+#mic {
+  background-color: rgb(101, 101, 101);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.first {
+  display: flex;
+  font-size: larger;
+  text-transform: capitalize;
+}
+.next {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#youtube {
+  margin: 0%;
+}
+#you {
+  color: red;
+  display: flex;
+  font-size: larger;
+}
+#cam {
+  margin-right: 20px;
+}
+#bell {
+  margin-right: 20px;
+}
+#pro {
+  margin-right: 10px;
+}
+.second {
+  display: flex;
+  font-size: large;
+}
+.serch {
+  display: flex;
+  background-color: black;
+}
+.basic .third {
+  display: flex;
+  font-size: x-large;
+}
+/*  */
+/*  */
+
+.doh {
+  margin-top: 15px;
+  width: 100%;
+  text-align: left;
+  border-radius: 0.5rem;
+}
+
+h3 {
+  color: white;
+}
+
+#profil {
+  font-size: 30px;
+  color: white;
+}
+#channel {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+#subs {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.name {
+  display: flex;
+  color: white;
+}
+.else {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  display: inline-block;
+  margin-right: 10px;
+}
+#ing {
+  width: 80px;
+  height: 30px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(67, 67, 67);
+  border: none;
+  margin-left: 5%;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  display: flex;
+}
+#good {
+  width: 90px;
+  height: 30px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(67, 67, 67);
+  margin-right: 5px;
+  border: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#share {
+  width: 70px;
+  height: 30px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(67, 67, 67);
+  margin-right: 5px;
+  border: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#save {
+  width: 120px;
+  height: 30px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(67, 67, 67);
+  margin-right: 5px;
+  border: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#clip {
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(67, 67, 67);
+  margin-right: 5px;
+  border: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#etc {
+  width: 50px;
+  height: 30px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(67, 67, 67);
+  border: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.dis {
+  width: 75%;
+  height: 30px;
+  color: rgb(97, 97, 97);
+}
+
+/*  */
+section {
+  display: flex;
+  justify-content: space-between;
+}
+.side {
+  text-align: left;
+  width: 30%;
+}
+h5 {
+  margin: 0%;
+}
+.gaap {
+  margin-left: 10px;
+}
+.side p {
+  margin: 0%;
+  margin-top: 5px;
+  color: rgb(176, 176, 176);
+  font-size: x-small;
+}
+.one {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.two {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.thr {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.four {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.five {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.six {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.sev {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.eight {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#one {
+  display: flex;
+  width: 160px;
+  height: 90px;
+  border-radius: 0.5rem;
+}
+#two {
+  width: 160px;
+  height: 90px;
+  border-radius: 0.5rem;
+}
+#thr {
+  width: 160px;
+  height: 90px;
+  border-radius: 0.5rem;
+}
+#four {
+  width: 160px;
+  height: 90px;
+  border-radius: 0.5rem;
+}
+#five {
+  width: 160px;
+  height: 90px;
+  border-radius: 0.5rem;
+}
+#six {
+  width: 160px;
+  height: 90px;
+  border-radius: 0.5rem;
+}
+#sev {
+  width: 160px;
+  height: 90px;
+  border-radius: 0.5rem;
+}
+#eight {
+  width: 160px;
+  height: 90px;
+  border-radius: 0.5rem;
+}
+/*  */
+/*  */

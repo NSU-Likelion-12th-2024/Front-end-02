@@ -2,8 +2,8 @@
 3번
 
 139.p
-(2)alert
-alert
+(2)Number
+Number
 a>b
 a==b
 (3)&&

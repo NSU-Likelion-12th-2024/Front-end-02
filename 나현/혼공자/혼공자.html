@@ -7,61 +7,17 @@
   </head>
   <body>
     <script>
-      const rawInput = prompt("태어난 해를 입력해주세요.", "");
-      const year = Number(rawInput);
-      const ddi = year % 12;
-      const gan = year % 10;
+      const array = ["사과", "배", "귤", "바나나"];
 
-      let 간;
-      if (gan == 0) {
-        간 = "경";
-      } else if (gan == 1) {
-        간 = "신";
-      } else if (gan == 2) {
-        간 = "임";
-      } else if (gan == 3) {
-        간 = "계";
-      } else if (gan == 4) {
-        간 = "갑";
-      } else if (gan == 5) {
-        간 = "을";
-      } else if (gan == 6) {
-        간 = "병";
-      } else if (gan == 7) {
-        간 = "정";
-      } else if (gan == 8) {
-        간 = "무";
-      } else if (gan == 9) {
-        간 = "기";
+      console.log("# for in 반복문");
+      for (const i in array) {
+        console.log(i);
       }
 
-      let 띠;
-      if (ddi == 0) {
-        띠 = "신";
-      } else if (ddi == 1) {
-        띠 = "유";
-      } else if (ddi == 2) {
-        띠 = "술";
-      } else if (ddi == 3) {
-        띠 = "해";
-      } else if (ddi == 4) {
-        띠 = "자";
-      } else if (ddi == 5) {
-        띠 = "축";
-      } else if (ddi == 6) {
-        띠 = "인";
-      } else if (ddi == 7) {
-        띠 = "묘";
-      } else if (ddi == 8) {
-        띠 = "진";
-      } else if (ddi == 9) {
-        띠 = "사";
-      } else if (ddi == 10) {
-        띠 = "오";
-      } else if (ddi == 11) {
-        띠 = "미";
+      console.log("# for of 반복문");
+      for (const i of array) {
+        console.log(i);
       }
-      alert(year + "년은 " + 간 + 띠 + "년입니다");
     </script>
   </body>
 </html>

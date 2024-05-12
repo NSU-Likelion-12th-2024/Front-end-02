@@ -61,7 +61,8 @@ console.log(multiply(1,2))
 console.log(multiply(1,3))
 
 2번: //최대값 찾는 max()함수
-const max = function max (array){
+<첫 번째>
+const max = function (array){
 let output = array[0]
 for(const item of array){
 if(output <item){
@@ -72,7 +73,10 @@ return output
 }
 console.log(max([1,2,3,4]))
 
-3번:
+<두 번째>
+const max = fuction max(number){
+let output = array[0]
+}
 
 p.240.
 1번:

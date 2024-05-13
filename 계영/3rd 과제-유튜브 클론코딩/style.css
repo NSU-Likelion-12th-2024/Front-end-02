@@ -1,0 +1,171 @@
+* {
+  list-style: none; /*ul-li앞에 있는 점 제거 */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 21px;
+}
+header .hamBtnFlex {
+  display: flex;
+}
+
+header .hamBtn {
+  padding: 0 10px 0 10px;
+}
+header .logo {
+  margin-right: 20px;
+}
+header .logo i {
+  color: red;
+}
+header .title {
+  padding-right: 20px;
+  font-weight: bold;
+}
+.searchFlex {
+  display: flex;
+}
+header .search {
+  border: 2px solid grey;
+  border-radius: 70px;
+  padding: 7px;
+  margin-right: 10px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .search span {
+  padding-right: 10px;
+}
+
+header .mike {
+  border: 2px solid grey;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 10px;
+  width: 46px;
+  padding: 0;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+}
+
+header .icons {
+  text-align: right;
+}
+
+header .icons i {
+  margin-right: 20px;
+}
+/*비디오 플레이어*/
+.player {
+  width: 75%;
+}
+.player video {
+  width: 100%;
+}
+#videoFlex {
+  display: flex;
+}
+.info {
+  padding: 10px;
+}
+
+.info .title {
+  font-weight: bold;
+  font-size: 30px;
+}
+/*채널 정보*/
+.channelInfo i {
+  border: 1px solid black;
+  border-radius: 80px;
+  padding: 7px;
+  margin-top: 7px;
+}
+
+.channelInfo span {
+  margin-left: 5px;
+}
+.channelInfo .subscribers {
+  padding-left: 32px;
+  font-size: small;
+}
+
+.channelInfo .sub {
+  border: 1px solid black;
+  border-radius: 80px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+
+.actionSize {
+  width: 75%;
+}
+.actionBtn {
+  text-align: right;
+}
+
+.actionBtn button {
+  font-size: large;
+}
+
+/*비디오 정보*/
+.videoInfo {
+  border: 1px solid #cac9c7;
+  background-color: #cac9c7;
+  border-radius: 10px;
+  width: 75%;
+}
+
+.videoInfo span {
+  padding-left: 8px;
+}
+
+.commentFlex {
+  display: flex;
+  align-items: start;
+}
+
+.hashtags ul {
+  display: flex;
+  margin: 0;
+}
+.videoInfo .comment {
+  padding-left: 8px;
+}
+
+/* 재생목록 */
+
+aside {
+  width: 25%;
+}
+.titleFlex {
+  display: flex;
+  flex-direction: column;
+}
+aside button {
+  font-size: 17px;
+}
+
+.videolist img {
+  width: 45%;
+}
+.videolist .videolistFlex {
+  display: flex;
+}
+
+aside .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+aside #video {
+  margin-bottom: 15px;
+  margin-right: 10px;
+}

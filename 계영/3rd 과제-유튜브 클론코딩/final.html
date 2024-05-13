@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4e5b2f86bb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/style.css" />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <header>
+      <!-- 헤더 -->
+      <div class="hamBtnFlex">
+        <div class="hamBtn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo">
+          <i class="fa-brands fa-youtube"></i>
+          <span class="title">Youtube</span>
+        </div>
+      </div>
+      <div class="searchFlex">
+        <div class="search">
+          <span>검색 </span>
+          <div>
+            <i class="fa-solid fa-keyboard"> |</i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="mike">
+          <i class="fa-solid fa-microphone"></i>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </header>
+    <!-- 비디오 플레이어 -->
+    <div id="videoFlex">
+      <section class="player">
+        <video src="/apple광고.mp4" controls></video>
+      </section>
+      <aside class="upNext">
+        <div class="menu">
+          <ul class="menuName">
+            <button style="background-color: black; color: white">
+              <li>모두</li>
+            </button>
+            <button><li>hello,sunset 제공</li></button>
+            <button><li>관련 콘텐츠</li></button>
+            <button><li>추천</li></button>
+          </ul>
+        </div>
+        <div class="videolist">
+          <ul>
+            <li>
+              <div class="videolistFlex">
+                <img id="video" src="/짱구1.jpg" alt="" />
+                <div class="titleFlex">
+                  <span class="title">짱구는 배가 불러요</span>
+                  <span class="name">투니버스</span>
+                  <span class="views">조회수 29만회 •3주 전</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="videolistFlex">
+                <img id="video" src="/짱구2.jpg" alt="" />
+                <div class="titleFlex">
+                  <span class="title">허이얍!</span>
+                  <span class="name">짱구 광기러</span>
+                  <span class="views">조회수 30만회 •1년 전</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="videolistFlex">
+                <img id="video" src="/짱구3.jpg" alt="" />
+                <div class="titleFlex">
+                  <span class="title">중국 냉면을 먹고 싶어요</span>
+                  <span class="name">짱구 5기 몰아보기</span>
+                  <span class="views">조회수 20만회 •한달 전</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="videolistFlex">
+                <img id="video" src="/짱구4.jpg" alt="" />
+                <div class="titleFlex">
+                  <span class="title">보고 싶은데 볼 수가 없어요</span>
+                  <span class="name">짱구 5기 몰아보기</span>
+                  <span class="views">조회수 29만회 •3주전</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <section class="info">
+      <div class="metadata">
+        <span class="title"> 아이폰 사고 싶게 만드는 영상 </span>
+      </div>
+      <div class="channelInfo">
+        <i class="fa-regular fa-user"></i>
+        <span class="name">hello, sunset</span><br />
+        <span class="subscribers">구독자 6.07만명</span>
+        <span class="sub">구독</span>
+      </div>
+      <div class="actionSize">
+        <div class="actionBtn">
+          <button>
+            <i class="fa-regular fa-thumbs-up"></i>
+            7.1만
+          </button>
+          <button>
+            <i class="fa-regular fa-thumbs-down"></i>
+          </button>
+          <button><i class="fa-solid fa-share"></i>공유</button>
+          <button><i class="fa-solid fa-download"></i>오프라인 저장</button>
+          <button><i class="fa-solid fa-list"></i>저장</button>
+          <button><i class="fa-solid fa-ellipsis"></i></button>
+        </div>
+      </div>
+    </section>
+    <section class="videoInfo">
+      <div class="commentFlex">
+        <div class="views">
+          <span>조회수 427만회</span>
+          <span>1년 전</span>
+        </div>
+        <div class="hashtags">
+          <ul>
+            <li>#아이폰 광고</li>
+            <li>#애플</li>
+            <li>#아이폰 사세요</li>
+          </ul>
+        </div>
+      </div>
+      <div class="comment">핸드폰 바꾸고 싶다</div>
+    </section>
+  </body>
+</html>

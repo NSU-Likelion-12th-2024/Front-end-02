@@ -1,0 +1,21 @@
+#form_pass {
+  width: 350px;
+  height: 50px;
+  border: 2px solid lightgrey;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.eyeIcon {
+  position: absolute;
+  right: 15px;
+}
+#form_pass_input {
+  border: none;
+}
+#form_pass_input:focus {
+  outline: none;
+}
+.form_alert {
+  border: 2px solid red !important;
+}

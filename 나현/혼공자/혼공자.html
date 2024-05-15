@@ -6,6 +6,28 @@
     <title>Document</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      let output = "";
+
+      for (let i = 1; i < 6; i++) {
+        for (let j = 5; j > i; j--) {
+          output += " ";
+        }
+        for (let k = 0; k < i * 2 - 1; k++) {
+          output += "*";
+        }
+        output += "\n";
+      }
+      for (let a = 5; a > 1; a--) {
+        for (let b = 6; b > a; b--) {
+          output += " ";
+        }
+        for (let c = 1; c < a * 2 - 2; c++) {
+          output += "*";
+        }
+        output += "\n";
+      }
+      console.log(output);
+    </script>
   </body>
 </html>

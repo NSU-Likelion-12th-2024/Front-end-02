@@ -78,10 +78,25 @@
     console.log(max(1,2,3,4))
 
     <세 번째>
-    const max = function {
+    const max = function (a, ...c){
     let output
     let items
 
+    //a가 배열인지 확인하는 메소드: Array.isArray()
+    if(Array.isArray(a)){
+        output = a[0]
+        items = a
+    }else if (typeof(a) === 'number') {
+        output = a
+        items = c
+    }
+
+    //최댓값 구하는 공식
+    for(const item of items){
+        if(output < item){
+            output = item
+        }
+    }
     return output
     }
 

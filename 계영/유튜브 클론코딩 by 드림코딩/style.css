@@ -30,6 +30,7 @@ button:focus {
   border: none;
   cursor: pointer;
   outline: none;
+  background-color: white;
 }
 /* 헤더 */
 header {
@@ -67,22 +68,24 @@ header .icons .fa-magnifying-glass {
 body > .videoInfo {
   padding: 7px;
 }
+
 .videoInfo .metadata .hashtags {
   display: flex;
-  font-size: var(--font-small);
+  font-size: 15px;
   color: var(--blue-color);
 }
 
 .videoInfo .metadata .hashtags li {
-  margin-right: var(--padding);
+  margin: 10px 10px 10px 5px;
 }
 
 .videoInfo .metadata .titleAndButton {
   display: flex;
+  margin-left: 10px;
 }
 
 .videoInfo .metadata .titleAndButton .title {
-  font-size: var(--font-large);
+  font-size: 18px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -95,18 +98,19 @@ body > .videoInfo {
 .videoInfo .views {
   font-size: var(--font-small);
   color: var(--grey-dark-color);
+  margin-left: 10px;
 }
 
 /* 액션버튼 */
 .videoInfo .actionBtn {
   display: flex;
   justify-content: space-around;
-  margin: var(--padding) 0;
+  margin: 10px 0;
 }
 .videoInfo .actionBtn button {
   display: flex;
   flex-direction: column;
-  font-size: var(--font-small);
+  font-size: 15px;
 }
 .videoInfo .actionBtn button i {
   margin: 0 auto;
@@ -124,6 +128,7 @@ body > .videoInfo {
   justify-content: space-between;
   border-top: 1px solid var(--grey-light-color);
   border-bottom: 1px solid var(--grey-light-color);
+  margin-left: 10px;
 }
 
 .channel .metadata {
@@ -153,7 +158,9 @@ body > .videoInfo {
 .channel .subscribe {
   text-transform: uppercase; /*대문자로 변경*/
   color: var(--red-color);
-  font-size: var(--font-medium);
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 12px;
 }
 
 /* upNext */
@@ -162,9 +169,8 @@ body > .videoInfo {
 }
 
 .upNext > .title {
-  font-size: var(--font-medium);
+  font-size: 20px;
   color: var(--grey-dark-color);
-  margin-bottom: calc((--padding) / 2);
 }
 
 .upNext .item {
@@ -198,5 +204,9 @@ body > .videoInfo {
   .infoAndUpNext {
     flex-direction: row;
     margin: var(--padding) 0;
+  }
+
+  .infoAndUpNext > .videoInfo {
+    width: 50%;
   }
 }

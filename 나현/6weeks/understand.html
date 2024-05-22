@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Document</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+    <link rel="stylesheet" href="flower.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;700;800&family=Montserrat:wght@200;400;600;800;900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        user-select: none;
+      }
+
+      header {
+        width: 100%;
+        height: 100px;
+        background-color: #f586ef;
+        overflow: hidden;
+        z-index: 990;
+        position: fixed;
+        font-family: "Nanum Pen Script";
+      }
+
+      nav {
+        float: right;
+        width: 100%;
+      }
+
+      nav ul li {
+        float: left;
+        width: 20%;
+        line-height: 100px;
+        text-align: center;
+        position: relative;
+        background-color: transparent;
+      }
+
+      nav:hover ul li {
+        background-color: #4d25bb;
+        transition: 1s ease-in;
+        /*마우스 올렸을 떄 배경색 변화: 몇 초간 변할지/ ease-in=부드럽게 변함*/
+      }
+
+      nav ul li a:hover {
+        display: block;
+        color: #f586ef;
+      }
+
+      nav ul li ul {
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      nav ul li ul li {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+      }
+
+      nav ul li ul li a {
+        font-size: 20px;
+      }
+
+      nav ul li a {
+        color: #000;
+        text-decoration: none;
+        display: block;
+
+        box-sizing: border-box;
+        height: 100px;
+        font-size: 30px;
+      }
+
+      nav ul li ul li a {
+        border-bottom: 0px;
+      }
+
+      nav ul li ul li a:hover {
+        color: #f586ef;
+      }
+
+      .trans {
+        display: none;
+      }
+
+      section {
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        line-height: 100vh;
+        font-size: 300px;
+      }
+
+      #one {
+        background-color: red;
+      }
+
+      #two {
+        background-color: orange;
+      }
+
+      #three {
+        background-color: yellow;
+      }
+
+      #four {
+        background-color: green;
+      }
+
+      #five {
+        background-color: blue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#one" class="menu_logo">로고</a>
+            <ul>
+              <li><a href="#" class="trans"></a></li>
+              <li><a href="#" class="trans"></a></li>
+              <li><a href="#" class="trans"></a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#two">행사 소개</a>
+            <ul>
+              <li><a href="#two">행사소개</a></li>
+              <li><a href="#two">프로그램 소개</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#three">행사 사진</a>
+            <ul>
+              <li><a href="#three">벚꽃 사진</a></li>
+              <li><a href="#three">우리들의 추억</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#four">오시는 길</a>
+            <ul>
+              <li><a href="#four">빠른 길찾기</a></li>
+              <li><a href="#four">지도</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#five">페스티벌</a>
+            <ul>
+              <li><a href="#five">페스티벌 소개</a></li>
+              <li><a href="#five">페스티벌 출연진</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="one">1</section>
+    <section id="two">2</section>
+    <section id="three">3</section>
+    <section id="four">4</section>
+    <section id="five">5</section>
+    <script>
+      let header = document.querySelector("header");
+      let ulItems = document.querySelectorAll("nav > ul > li");
+
+      ulItems.forEach(function (ulItem) {
+        ulItem.addEventListener("mouseover", function () {
+          header.style.transition = "height 0.3s";
+          header.style.height = "200px";
+        });
+
+        ulItem.addEventListener("mouseout", function () {
+          header.style.transition = "height 0.3s";
+          header.style.height = "100px";
+        });
+      });
+
+      document.querySelectorAll("nav ul li a").forEach(function (scroll) {
+        scroll.addEventListener("click", function (e) {
+          e.preventDefault();
+          let targetId = scroll.getAttribute("href");
+          let targetElement = document.querySelector(targetId);
+
+          window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

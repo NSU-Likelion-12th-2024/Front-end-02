@@ -3,11 +3,11 @@ p.240 1번
 <script>
       let numbers = [273, 25, 75, 52, 103, 32, 57, 24, 76];
 
-      let oddNumbers = numbers.filter((value) => {
+      numbers = numbers.filter((value) => {
         return value % 2 === 1 && value <= 100 && value % 5 === 0;
       });
 
-      console.log(oddNumbers);
+      console.log(numbers);
 </script>
 
 p.241 2번
@@ -37,7 +37,7 @@ p.254 1번
 </script>
 
 2번
-2
+2 → 3
 
 p.255 3번
 1

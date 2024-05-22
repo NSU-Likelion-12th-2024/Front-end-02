@@ -1,10 +1,56 @@
-#form_pass {
-  width: 350px;
+#form_id {
+  width: 450px;
   height: 50px;
   border: 2px solid lightgrey;
   display: flex;
   align-items: center;
   position: relative;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  z-index: 1;
+}
+.fa-user {
+  margin: 10px;
+}
+#form_id_input {
+  border: none;
+  width: 450px;
+}
+#form_id_input {
+  border: none;
+}
+#form_id_input:focus {
+  outline: none;
+}
+
+.form_alert1 {
+  border: 2px solid red !important;
+  color: red;
+}
+.form_alert5 {
+  border: 2px solid rgb(59, 180, 59) !important;
+}
+.mail {
+  color: rgb(179, 178, 178);
+  margin-right: 5px;
+}
+
+#form_pass {
+  width: 450px;
+  height: 50px;
+  border: 2px solid lightgrey;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: -2px;
+  z-index: 1;
+}
+.fa-lock {
+  margin: 10px;
+}
+#form_pass_input {
+  border: none;
+  width: 450px;
 }
 .eyeIcon {
   position: absolute;
@@ -18,4 +64,176 @@
 }
 .form_alert {
   border: 2px solid red !important;
+}
+.form_alert6 {
+  border: 2px solid rgb(59, 180, 59) !important;
+}
+
+#form_email {
+  width: 450px;
+  height: 50px;
+  border: 2px solid lightgrey;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-top: -2px;
+  z-index: 1;
+}
+.fa-envelope {
+  margin: 10px;
+}
+#form_email_input {
+  border: none;
+  width: 450px;
+}
+#form_email_input:focus {
+  outline: none;
+}
+.form_alert3 {
+  border: 2px solid red !important;
+}
+.form_alert7 {
+  border: 2px solid rgb(59, 180, 59) !important;
+}
+
+/*  */
+#form_ul1 {
+  padding-inline-start: 20px;
+  font-size: small;
+}
+#form_ul2 {
+  padding-inline-start: 20px;
+  font-size: small;
+}
+#form_ul3 {
+  padding-inline-start: 20px;
+  font-size: small;
+}
+/*  */
+
+.select1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left_L {
+  position: relative;
+  height: 30px;
+  width: 100px;
+}
+#boy {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.bOy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px 0px 0px 5px;
+  color: rgb(179, 178, 178);
+}
+
+.form_green {
+  border: 1px solid rgb(59, 180, 59);
+  color: rgb(59, 180, 59);
+}
+
+.left_R {
+  position: relative;
+  height: 30px;
+  width: 100px;
+}
+#girl {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.gIrl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 0px 5px 5px 0px;
+  color: rgb(179, 178, 178);
+}
+
+.select2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.right_L {
+  position: relative;
+  height: 30px;
+  width: 100px;
+}
+#kkk {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.kKK {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px 0px 0px 5px;
+  color: rgb(179, 178, 178);
+}
+
+.right_R {
+  position: relative;
+  height: 30px;
+  width: 100px;
+}
+#fff {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.fFF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 0px 5px 5px 0px;
+  color: rgb(179, 178, 178);
+}
+.select {
+  display: flex;
+  border: 0.5px solid lightgray;
+  width: 450px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+input[type="radio"]:checked + .bOy {
+  border: 1px solid rgb(59, 180, 59);
+  color: rgb(59, 180, 59);
+}
+input[type="radio"]:checked + .gIrl {
+  border: 1px solid rgb(59, 180, 59);
+  color: rgb(59, 180, 59);
+}
+input[type="radio"]:checked + .kKK {
+  border: 1px solid rgb(59, 180, 59);
+  color: rgb(59, 180, 59);
+}
+input[type="radio"]:checked + .fFF {
+  border: 1px solid rgb(59, 180, 59);
+  color: rgb(59, 180, 59);
 }

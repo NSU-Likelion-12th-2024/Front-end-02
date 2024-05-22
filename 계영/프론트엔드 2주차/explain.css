@@ -1,0 +1,50 @@
+* {
+  color: blueviolet;
+  text-align: center;
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+span {
+  color: black;
+  font-size: large;
+}
+
+h2 {
+  color: brown;
+}
+
+.배고픈나 {
+  color: aqua;
+}
+
+#교수님께 {
+  background-color: cornflowerblue;
+  font-style: italic;
+  text-decoration: underline;
+}
+.explain1 {
+  background-color: blanchedalmond;
+}
+div > span {
+  color: chartreuse;
+}
+
+div span {
+  background-color: deeppink;
+  text-decoration: line-through;
+}
+.강아지 {
+  width: 400px;
+  height: 400px;
+}
+div {
+  background-image: url(/프론트\ 강아지.jpg);
+  background-size: 100px;
+  width: 500px;
+  height: 500px;
+}
+.Ruby {
+  background-repeat: repeat-y;
+}

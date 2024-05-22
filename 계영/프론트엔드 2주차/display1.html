@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #box {
+        width: 400px;
+        margin: 0 auto;
+        border: 5px solid black;
+        overflow: hidden;
+        text-align: center;
+      }
+      #left .first {
+        width: 100px;
+        border: 1px solid red;
+        float: left;
+      }
+      #left .second {
+        width: 100px;
+        border: 1px solid red;
+        float: left;
+      }
+      #right .first {
+        width: 100px;
+        border: 1px solid red;
+        clear: both;
+        float: right;
+      }
+      #right .second {
+        width: 100px;
+        border: 1px solid red;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box">
+      <div id="left">
+        <div class="first">first</div>
+        <div class="second">second</div>
+      </div>
+      <div id="right">
+        <div class="first">first</div>
+        <div class="second">second</div>
+      </div>
+    </div>
+  </body>
+</html>

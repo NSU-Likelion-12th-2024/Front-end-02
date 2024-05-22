@@ -50,7 +50,7 @@ h3 {
   font-weight: bold;
   margin-left: 20px;
 }
-.link :hover {
+.link:hover {
   text-decoration: underline;
 }
 footer {
@@ -85,15 +85,19 @@ footer a {
   color: #a8a8ab;
   margin: 13px;
 }
-
-.information.Name {
+.Name {
+  display: flex;
+}
+.information .Name input {
   display: flex;
   width: 190px;
   height: 54px;
 }
-.information input {
+.information input,
+select {
   width: 414px;
   height: 54px;
+  text-align: left;
 }
 .final {
   background-color: #0077ed;

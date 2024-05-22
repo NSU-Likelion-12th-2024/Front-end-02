@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script language="javascript" src="/5th 과제/singup.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/4e5b2f86bb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/5th 과제/signup.css" />
+    <title>회원가입</title>
+  </head>
+  <body>
+    <div class="form_content_top">
+      <div class="form_item user">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" name="" id="id_input" placeholder="아이디" />
+        <span class="id_naver">@naver.com</span>
+      </div>
+      <div class="form_item password">
+        <i class="fa-solid fa-lock"></i>
+        <input
+          type="password"
+          name=""
+          id="password_input"
+          placeholder="비밀번호"
+        />
+        <span class="password_info">
+          <i class="fa-regular fa-eye-slash eyeIcon"></i>
+        </span>
+      </div>
+      <div class="form_item email">
+        <i class="fa-solid fa-envelope"></i>
+        <input
+          type="email"
+          name=""
+          id="email_input"
+          placeholder="[선택] 이메일주소 (비밀번호 찾기 등 본인 확인용)"
+        />
+      </div>
+    </div>
+    <div class="form_content_bottom">
+      <div class="form_item choice">
+        <ul class="list">
+          <li class="radio_item">
+            <input type="radio" name="gender" id="gender" />
+            <label for="gender">남자</label>
+          </li>
+          <li class="radio_item">
+            <input type="radio" name="gender" id="gender" />
+            <label for="gender">여자</label>
+          </li>
+        </ul>
+        <ul class="list">
+          <li class="radio_item">
+            <input type="radio" name="" id="nationality" />
+            <label for="gender">내국인</label>
+          </li>
+          <li class="radio_item">
+            <input type="radio" name="" id="nationality" />
+            <label for="gender">외국인</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <ul id="form_ul"></ul>
+  </body>
+</html>

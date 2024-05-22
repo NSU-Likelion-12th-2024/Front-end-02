@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0;
+      }
+      ul.display_flex {
+        width: 40%;
+        display: flex;
+        height: 50px;
+        line-height: 50px; /*줄 간격*/
+      }
+      ul.display_flex li {
+        list-style: none;
+        border: 1px solid black;
+        text-align: center;
+        background-color: antiquewhite;
+        flex: 1;
+      }
+      a {
+        color: black;
+        text-decoration: none; /*text-decoration은 밑 줄*/
+        display: block;
+      }
+      .display_flex li a:hover {
+        /*hover는 "마우스를 올렸을 때" 어떤 기능 사용할 것인지, 콜론과 같이 써 줌*/
+        color: red;
+        text-decoration: underline;
+      }
+      .display_flex li ul {
+        display: none;
+        width: 100%;
+      }
+      .display_flex li:hover ul {
+        display: block;
+      }
+      .display_flex li ul li {
+        width: 100%;
+      }
+      ul.display_flex li:nth-child(2) a:hover {
+        opacity: 0.2; /*opactiy는 투명도 0에 가까울수록 투명함 */
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="display_flex">
+      <li>
+        <a href="#">menu1</a>
+        <ul class="submenul">
+          <li>submenu</li>
+          <li>submenu</li>
+          <li>submenu</li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">menu2</a>
+        <ul class="submenu2">
+          <li>submenu</li>
+          <li>submenu</li>
+          <li>submenu</li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">menu3</a>
+        <ul class="submenu3">
+          <li>submenu</li>
+          <li>submenu</li>
+          <li>submenu</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0;
+      }
+      ul {
+        border: 5px solid black;
+      }
+      ul.display_flex {
+        display: flex;
+        justify-content: space-between;
+        /* 세로배치 !!!! */
+        /* align-items: stretch; */
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+        align-items: center;
+      }
+      ul.display_flex li {
+        list-style: none;
+        border: 2px solid red;
+        box-sizing: border-box;
+        width: 30%;
+        background: pink;
+        text-align: center;
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="display_flex">
+      <li>flex1<br />flex1<br />flex1</li>
+      <li>flex2<br />flex2</li>
+      <li>flex3</li>
+    </ul>
+  </body>
+</html>

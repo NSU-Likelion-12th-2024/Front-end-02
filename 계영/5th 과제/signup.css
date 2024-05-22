@@ -1,0 +1,69 @@
+input {
+  border-width: 0; /*input박스 테두리 없애기*/
+}
+
+.form_item .user span {
+  justify-content: space-around;
+}
+
+.form_item {
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  width: 350px;
+  height: 20px;
+  padding: 7px 20px;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.form_alert {
+  border: 2px solid red; /*important:  css적용 우선순위로 옮김*/
+}
+.radio_item input:checked + label {
+  border-color: green;
+  color: #09aa5c;
+}
+label {
+  cursor: pointer;
+}
+.gender {
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  width: 350px;
+  height: 20px;
+  padding: 7px 20px;
+}
+
+.list .radio_item {
+  width: 50%;
+}
+.radio_item {
+  display: inline-block;
+}
+.radio_item label {
+  display: block;
+  position: relative;
+  width: 100%;
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: inherit;
+  padding: 3px 0;
+  color: #929294;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 9px;
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}

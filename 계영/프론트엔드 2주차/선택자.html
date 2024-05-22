@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #idname li {
+        /*하위선택자*/
+        color: red;
+      }
+      #idname > li {
+        /*부모 자식 선택자*/
+        color: blue;
+      }
+      h1,
+      h2 {
+        /*그룹 선택자*/
+        color: green;
+      }
+
+      li {
+        color: gray;
+      }
+      #first {
+        color: pink;
+      }
+      .second {
+        color: purple !important;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="idname">
+      <li>자식1</li>
+      <ul>
+        <li>손자1</li>
+        <li>손자2</li>
+        <li>손자3</li>
+      </ul>
+      <li>자식2</li>
+    </ul>
+
+    <h1>h1 글자 그룹선택자적용</h1>
+    <h2>h2 글자 그룹선택자적용</h2>
+    <ul>
+      <li id="first" class="second" style="color: blue">자식1</li>
+      <li>자식2</li>
+      <li>자식3</li>
+    </ul>
+  </body>
+</html>

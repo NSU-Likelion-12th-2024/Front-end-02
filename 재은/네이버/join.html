@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 : 회원가입</title>
+    <link rel="stylesheet" href="join.css">
+    <script type="module" src="join.js" defer></script>
+    <script src="https://kit.fontawesome.com/5286d2d6db.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="max-container">
+        <div class="form" id="form1">
+            <div id="form__id" class="form__container">
+                <i class="fa-regular fa-user idIcon"></i>
+                <input type="text" placeholder="아이디" id="form__id__input" class="form__input">
+                <div class="form__id__naver">@naver.com</div>
+            </div>
+            <div id="form__pass" class="form__container">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="비밀번호" id="form__pass__input" class="form__input">
+                <i class="fa-regular fa-eye-slash" style="margin:0"></i>
+            </div>
+            <div id="form__email" class="form__container">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" placeholder="[선택] 비밀번호 분실 시 확인용 이메일" id="form__email__input" class="form__input">
+            </div>
+        </div>
+        <ul id="form__ul-1"></ul>
+        <div class="form" id="form2">
+            <div id="form__select" class="form__container">
+                <div class="form__select__list">
+                    <input type="radio" name="sex" class="btn" id="selectMen">
+                    <label for="selectMen">
+                        <div class="form__select__sublist form__select__leftSublist">남자</div>
+                    </label>
+                    <input type="radio" name="sex" class="btn" id="selectWomen">
+                    <label for="selectWomen">
+                        <div class="form__select__sublist form__select__rightSublistt">여자</div>
+                    </label>
+                </div>
+                <div class="form__select__list">
+                    <input type="radio" name="national" class="btn" id="selectKorea">
+                    <label for="selectKorea">
+                        <div class="form__select__sublist form__select__leftSublist">내국인</div>
+                    </label>
+                    <input type="radio" name="national" class="btn" id="selectForeignwoal">
+                    <label for="selectForeignwoal">
+                        <div class="form__select__sublist form__select__rightSublistt">외국인</div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

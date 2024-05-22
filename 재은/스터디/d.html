@@ -9,27 +9,17 @@
 
 <body>
     <script>
-        const max = function (first, ...rests) {
-            let output
-            let items
+        const array = ['사과', '배', '귤', '바나나']
 
-            if (Array.isArray(first)) { //Array.isArray로 자료가 배열인지 확인 (type of로는 배열 확인 불가능)
-                output = first[0]
-                items = first
-            }
-            else if (typeof (first) === 'number') {
-                output = first
-                items = rests
-            }
-            for (const item of items) {
-                if (output < item) {
-                    output = item
-                }
-            }
-            return output
-        }
-        console.log(`max(배열): ${max([1, 2, 3, 4])}`)
-        console.log(`max(숫자, ...): ${max(1, 2, 3, 4)}`)
+        console.log('# for in 반복문')
+        array.forEach(function (value, index) {
+            console.log(index)
+        })
+        console.log('# for of 반복문')
+        array.forEach(function (value, index) {
+            console.log(value)
+        })
+
     </script>
 </body>
 

@@ -1,0 +1,107 @@
+:root {
+  --color-primary: #09aa5c;
+  --color-red: #ff3f3f;
+  --color-gray: lightgray;
+  --color-placeholder: #929294;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.max-container {
+  width: 500px;
+  margin: 0 auto;
+}
+.form {
+  margin: 0 20px;
+}
+.form i {
+  color: lightgray;
+  font-size: 16px;
+  margin: 0 15px;
+}
+.form__container {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--color-gray);
+  height: 50px;
+  position: relative;
+  margin: 0;
+}
+.form__input {
+  font-size: 16px;
+  border: none;
+  width: 300px;
+  cursor: pointer;
+}
+.form__input:focus {
+  outline: none;
+}
+.form__container:focus-within:not(.form__container__alert) {
+  border: 2px solid var(--color-primary);
+  z-index: 2;
+}
+.form__id__naver,
+.fa-eye,
+.fa-eye-slash {
+  position: absolute;
+  right: 15px;
+}
+.fa-eye,
+.fa-eye-slash {
+  cursor: pointer;
+}
+#form__id {
+  border-radius: 8px 8px 0 0;
+}
+#form__email {
+  border-radius: 0 0 8px 8px;
+}
+#form__select {
+  padding: 0 15px;
+  justify-content: space-between;
+}
+.form__select__list {
+  width: calc(50% - 5px);
+  display: flex;
+}
+.btn {
+  display: none;
+}
+
+.form__select__list label {
+  width: 50%;
+  cursor: pointer;
+}
+.btn + label > .form__select__sublist {
+  border: 1px solid #c6c6c6;
+  text-align: center;
+  color: var(--color-placeholder);
+  font-size: 13px;
+  padding: 6px 0;
+}
+.form__select__list
+  input[type="radio"]:checked
+  + label
+  > .form__select__sublist {
+  border: 1px solid var(--color-primary);
+}
+.form__select__leftSublist {
+  border-radius: 4px 0 0 4px;
+}
+.form__select__rightSublistt {
+  border-radius: 0 4px 4px 0;
+}
+.form__container__alert {
+  border: 2px solid var(--color-red);
+  z-index: 3;
+}
+#form__pass {
+  margin-top: -2px;
+}
+#form__email {
+  margin-top: -2px;
+}

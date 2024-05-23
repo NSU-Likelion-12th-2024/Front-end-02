@@ -42,5 +42,5 @@ eyeIcon.addEventListener("click", function () {
     eyeIcon.classList.remove("fa-eye");
   }
 });
-//input에 변화가 생겼을 때(blur) ,PWD_CHECK 함수실행
+//inputPass에 변화가 생겼을 때(blur) ,PWD_CHECK 함수실행
 inputPass.addEventListener("blur", PWD_CHECK);

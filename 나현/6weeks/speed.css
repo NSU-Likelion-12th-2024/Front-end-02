@@ -1,0 +1,22 @@
+#state {
+  background-color: aqua;
+  text-align: center;
+  height: 300px;
+}
+#state.ready {
+  background-color: aqua;
+}
+#state.go {
+  background-color: rgb(0, 255, 4);
+}
+#state.stop {
+  background-color: red;
+  color: white;
+}
+li {
+  list-style-type: none;
+  font-size: small;
+}
+#form {
+  padding-left: 0%;
+}

@@ -16,6 +16,7 @@ function ID_CHECK(event) {
     alertPass1.textContent =
       "아이디: 5~20자의 영문 소문자, 숫자와 특수기호(_),(-)만 사용 가능합니다.";
     alertPass1.style.color = "red";
+    inputId.style.textDecoration = "underline";
     inputId.style.color = "red";
     passUser.style.color = "red";
     formUl1.appendChild(alertPass1);
@@ -47,6 +48,7 @@ function PWD_CHECK(event) {
     alertPass2.textContent =
       "비밀번호: 8~16자의 영문 대/소문자, 숫자, 특수문자를 사용해 주세요.";
     inputPass.style.color = "red";
+    inputPass.style.textDecoration = "underline";
     alertPass2.style.color = "red";
     passIcon.style.color = "red";
     formUl2.appendChild(alertPass2);
@@ -88,6 +90,7 @@ function EML_CHECK(event) {
   } else if (regEmail.test(event.target.value) === false) {
     alertPass3.textContent = "이메일: 이메일 주소가 정확한지 확인해주세요.";
     inputEmail.style.color = "red";
+    inputEmail.style.textDecoration = "underline";
     alertPass3.style.color = "red";
     passEmail.style.color = "red";
     formUl3.appendChild(alertPass3);

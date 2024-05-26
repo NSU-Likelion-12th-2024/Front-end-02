@@ -7,20 +7,29 @@
   </head>
   <body>
     <script>
-      const object = {
-        ko: "빵",
-        en: "bread",
-        ja: "パン",
-        lang: {
-          ko: "한국어",
-          en: "영어",
-          ja: "일본어",
+      const books = [
+        {
+          name: "혼공파",
+          price: 18000,
+          publisher: "한빛미디어",
         },
-        print: function (lang) {
-          console.log(this.ko + "는" + lang[lang] + "로" + [lang]);
+        {
+          name: "HTML",
+          price: 26000,
+          publisher: "한빛아카데미",
         },
-      };
-      object.print("es");
+        {
+          name: "머신러닝",
+          price: 30000,
+          publisher: "한빛",
+        },
+        {
+          name: "딥러닝",
+          price: 25000,
+          publisher: "위키북스",
+        },
+      ];
+      const output = _.orderBy(books, book.name);
     </script>
   </body>
 </html>

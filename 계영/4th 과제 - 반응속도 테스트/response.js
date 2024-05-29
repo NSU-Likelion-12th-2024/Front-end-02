@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       now 배경으로 전환됨*/
         screen.classList.replace("ready", "now");
         screen.textContent = "클릭 하세요";
+        startTime = new Date();
       }, Math.floor(Math.random() * 1000) + 2000);
     } else if (screen.classList.contains("ready")) {
       clearTimeout(timeoutId);

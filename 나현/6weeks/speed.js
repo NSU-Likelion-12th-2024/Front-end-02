@@ -5,11 +5,14 @@ const alertPass = document.createElement("li");
 let begin;
 let end;
 let time;
+//전역변수
+//함수 안에 변수를 정의 -> 변수가 유료하지않음
 const records = [];
 state.addEventListener("click", (event) => {
   if (event.target.classList.contains("ready")) {
     state.classList.replace("ready", "stop");
     state.textContent = "초록색이되면 클릭하세요";
+    //특정 시간이 지난 다음에 코드를 실행하는 함수
     setTimeout(() => {
       state.classList.replace("stop", "go");
       state.textContent = "클릭하세요!";
@@ -23,6 +26,7 @@ state.addEventListener("click", (event) => {
     time = end - begin;
     records.push(time);
     const average = records.reduce((a, b) => a + b) / records.length;
+    //새로운 값이 추가 -> 배열에 저장
     alertPass.textContent = "현재: " + time + "ms, 평균: " + average + "ms";
     form.appendChild(alertPass);
     state.classList.replace("go", "ready");
